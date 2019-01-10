@@ -1,0 +1,40 @@
+body {
+    background-color: grey;
+    font-family: "Al Nile";
+    text-align: center;
+    font-weight: bold;
+    background-image: url("Images/4JyS.gif");
+}
+
+
+.whiteWord {
+    color: white;
+    font-size: 30px;
+}
+
+#congrats {
+    font-size: 50px;
+}
+
+#slots {
+    color: white;
+    font-size: 50px ;
+}
+
+#letterText {
+    font-size: 30px;
+    color: yellow;
+}
+
+h1 {
+    color: yellow;
+}
+
+#congrats {
+    color: red;
+}
+
+#click {
+    font-size: 20px;
+}
+

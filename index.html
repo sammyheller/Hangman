@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hangman</title>
+    <script src="scripts.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body onload="alphabetButtons()">
+
+
+
+<h1>Hangman Surfing Edition</h1>
+<div> Select Mode:
+    <select id="wordMode">
+        <option value="1">California Surf Spots</option>
+        <option value="2">African Surf Spots</option>
+        <option value="3">Hawaiian Surf Spots</option>
+    </select>
+    <button id="startButton" onclick="giveMode()">Let's Surf!</button>
+</div>
+
+<div id="btn"></div>
+<div id="click"></div>
+
+<div id="slots" class="whiteWord"></div>
+
+<div id="letterText">
+    Letters Missed: <div id="missed" class="whiteWord"></div>
+    Lives Remaining: <div id="lives" class="whiteWord">6</div>
+</div>
+
+<div id="picked" class="whiteWord"></div>
+
+<div id="congrats"></div>
+
+</body>
+</html>
